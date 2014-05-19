@@ -9,9 +9,20 @@ namespace baitap1.C_
     {
         /**
          * Name
-         * 
-         * 
+         * Họ và Tên
+         * Name string
          */
-        public string Name;
+        private string _name;
+        public string Name
+        {
+            get
+            {
+                return "Sinh viên " + this._name;
+            }
+            set
+            {
+                this._name = value;
+            }
+        }
     }
 }
