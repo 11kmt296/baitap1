@@ -5,7 +5,13 @@ using System.Text;
 
 namespace baitap1.C_
 {
-    class Class1
+    class Student
     {
+        /**
+         * Name
+         * 
+         * 
+         */
+        public string Name;
     }
 }
