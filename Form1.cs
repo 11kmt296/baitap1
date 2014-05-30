@@ -18,11 +18,9 @@ namespace baitap1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Student sv= new Student();
-            sv.password = "what'sup";
-            sv.Name = "Thái Vip";
-            MessageBox.Show(sv.password);
-            
+
+            DatabaseConnect sqlconnect = new DatabaseConnect();
+            MessageBox.Show(sqlconnect.Status + " " + sqlconnect.ErrorConnect);
         }
     }
 }

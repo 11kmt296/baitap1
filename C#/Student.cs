@@ -18,7 +18,7 @@ namespace baitap1.C_
         {
             get
             {
-                return "Đại gia " + this._name;
+                return "Sinh viên " + this._name;
             }
             set
             {
